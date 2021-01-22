@@ -1,18 +1,10 @@
 {
-  "name": "maiconpinto/cakephp-adminlte-theme",
-  "description": "CakePHP 3.x AdminLTE Theme.",
+  "name": "tothbarnabas79/cakephp-eliteadmin-theme",
+  "description": "CakePHP 3.x Elite Admin Theme.",
   "type": "cakephp-plugin",
   "keywords": ["cakephp", "templates", "plugin"],
-  "homepage": "https://github.com/maiconpinto/cakephp-adminlte-theme",
+  "homepage": "https://github.com/tothbarnabas79/cakephp-eliteadmin-theme.git",
   "license": "MIT",
-  "authors": [
-    {
-      "name": "Maicon Pinto",
-      "email": "maiconsilva.pinto@gmail.com",
-      "homepage": "https://www.maiconpinto.com.br/",
-      "role": "Author"
-    }
-  ],
   "require": {
     "php": ">=5.6",
     "cakephp/cakephp": "~3.0"
@@ -26,8 +18,8 @@
     }
   },
   "support": {
-    "issues": "https://github.com/maiconpinto/cakephp-adminlte-theme/issues",
-    "source": "https://github.com/maiconpinto/cakephp-adminlte-theme"
+    "issues": "https://github.com/tothbarnabas79/cakephp-eliteadmin-theme.git/issues",
+    "source": "https://github.com/tothbarnabas79/cakephp-eliteadmin-theme.git"
   }
 }
 
