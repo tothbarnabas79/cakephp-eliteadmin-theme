@@ -84,30 +84,29 @@
 
 <link href="/elite/datatables/media/css/dataTables.bootstrap4.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/rowgroup/1.0.2/css/rowGroup.dataTables.min.css">
-
 <script type="text/javascript" language="javascript" src="//cdn.datatables.net/rowgroup/1.0.2/js/dataTables.rowGroup.min.js"></script>
 <script>
-    $(document).ready(function(){
+  $(document).ready(function(){
 		var page = 0;
-        var table = $('#datatable').DataTable({
-            "dom": '<"pull-left"f><"pull-right"l>tip',
-            'paging'         : true,
-            'lengthChange'   : false,
-            'searching'      : true,
-            'ordering'       : true,
-            'info'           : true,
-            'autoWidth'      : false,
-            'iDisplayLength' : 25,
-            'language'	     : {"url": "/elite/datatables/i18n/Hungarian.json"},
-            //'order'		     : [[ 2, "asc" ],[ 1, "asc" ],[ 0, "asc" ]],
+    var table = $('#datatable').DataTable({
+      "dom": '<"pull-left"f><"pull-right"l>tip',
+      'paging'         : true,
+      'lengthChange'   : false,
+      'searching'      : true,
+      'ordering'       : true,
+      'info'           : true,
+      'autoWidth'      : false,
+      'iDisplayLength' : 25,
+      'language'	     : {"url": "/elite/datatables/i18n/Hungarian.json"},
+      //'order'		     : [[ 2, "asc" ],[ 1, "asc" ],[ 0, "asc" ]],
 			'processing': true,
-            'aoColumnDefs'   : [
-                {
-                    "bSortable" : false,
-                    "aTargets" : [ "noSort" ]
-                }
+      'aoColumnDefs'   : [
+        {
+          "bSortable" : false,
+          "aTargets" : [ "noSort" ]
+        }
 			],
-            'scrollX': true
+      'scrollX': true
 		});
-    });
+  });
 </script>
